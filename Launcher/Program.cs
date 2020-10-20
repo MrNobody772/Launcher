@@ -8,11 +8,9 @@ namespace Launcher
 
     class Program
     {
-        private WebClient wc = new WebClient();
         //static Program tenprogram = new Program();
         static Downloader tendownloader = new Downloader();
 
-        Uri url = null;
 
         static void Main()
         {
